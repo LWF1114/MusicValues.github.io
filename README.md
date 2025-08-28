@@ -1,2 +1,3 @@
-# 8values.github.io
-The 8values Political Quiz measures individuals' political values, including Equality, Nation, Liberty, Tradition, Markets, World, Authority, and Progress.
+# MusicValues.github.io
+The MusicValues Test is a test that values your music taste based off 8 Musical Preferences:Kanye West, Taylor Swift, Scaring Hoes, Attracting Hoes, Indie, Industrial, Collaboration & Beef
+Based Off 8Values
