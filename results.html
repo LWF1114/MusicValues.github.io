@@ -94,7 +94,7 @@ stats"></a></div></noscript>
     tayeArray = ["Communist","Socialist","Social","Centrist","Market","Capitalist","Laissez-Faire"]
     atonArray = ["Cosmopolitan","Internationalist","Peaceful","Balanced","Patriotic","Nationalist","Chauvinist"]
     exprArray = ["Anarchist","Libertarian","Liberal","Moderate","Statist","Authoritarian","Totalitarian"]
-    congArray = ["Revolutionary","Very Progressive","Progressive","Neutral","Traditional","Very Traditional","Reactionary"]
+    confArray = ["Revolutionary","Very Progressive","Progressive","Neutral","Traditional","Very Traditional","Reactionary"]
 
     function setLabel(val,ary) {
         if (val > 100) { return "" } else
@@ -129,7 +129,7 @@ stats"></a></div></noscript>
     document.getElementById("tayeomic-label").innerHTML = setLabel(equality, tayeArray)
     document.getElementById("atonomatic-label").innerHTML = setLabel(peace, atonArray)
     document.getElementById("state-label").innerHTML = setLabel(liberty, exprArray)
-    document.getElementById("society-label").innerHTML = setLabel(progress, congArray)
+    document.getElementById("society-label").innerHTML = setLabel(progress, confArray)
 
     ideology = ""
     ideodist = Infinity
@@ -138,7 +138,7 @@ stats"></a></div></noscript>
         dist += Math.pow(Math.abs(ideologies[i].stats.taye - equality), 2)
         dist += Math.pow(Math.abs(ideologies[i].stats.expr - liberty), 2)
         dist += Math.pow(Math.abs(ideologies[i].stats.aton - peace), 1.73856063)
-        dist += Math.pow(Math.abs(ideologies[i].stats.cong - progress), 1.73856063)
+        dist += Math.pow(Math.abs(ideologies[i].stats.conf - progress), 1.73856063)
         if (dist < ideodist) {
             ideology = ideologies[i].name
             ideodist = dist
