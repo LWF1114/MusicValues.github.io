@@ -529,9 +529,7 @@ questions = [
             "expr": 0,
             "conf": 10
         }
-
-   
-    }
 ];
+
 
 
