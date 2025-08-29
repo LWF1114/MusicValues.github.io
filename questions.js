@@ -1,24 +1,42 @@
 questions = [
     {
-        "question": "Oppression by corporations is more of a concern than oppression by governments.",
+        "question": "I listen to Death Grips.",
         "effect": {
-            "taye": 10,
-            "aton": 0,
-            "expr": -5,
+            "taye": 0,
+            "aton": 5,
+            "expr": 10,
             "conf": 0
         }
     },
     {
-        "question": "It is necessary for the government to intervene in the tayeomy to protect consumers.",
+        "question": "I prefer bands over individual musicians.",
         "effect": {
             "taye": 10,
+            "aton": 0,
+            "expr": 0,
+            "conf": 5
+        }
+    },
+    {
+        "question": "Kanye has at least one good song.",
+        "effect": {
+            "taye": -1,
             "aton": 0,
             "expr": 0,
             "conf": 0
         }
     },
     {
-        "question": "The freer the markets, the freer the people.",
+        "question": "Kanye has at least one good album.",
+        "effect": {
+            "taye": -5,
+            "aton": 0,
+            "expr": 0,
+            "conf": 0
+        }
+    },
+    {
+        "question": "Kanye has 5+ good albums.",
         "effect": {
             "taye": -10,
             "aton": 0,
@@ -27,7 +45,16 @@ questions = [
         }
     },
     {
-        "question": "It is better to maintain a balanced budget than to ensure welfare for all citizens.",
+        "question": "The 2009 VMA Incident made Taylor Swift famous",
+        "effect": {
+            "taye": -10,
+            "aton": 0,
+            "expr": 10,
+            "conf": 0
+        }
+    },
+    {
+        "question": "Kanye is a good person CURRENTLY.",
         "effect": {
             "taye": -10,
             "aton": 0,
@@ -36,61 +63,34 @@ questions = [
         }
     },
     {
-        "question": "Publicly-funded research is more beneficial to the people than leaving it to the market.",
+        "question": "Taylor Swift has at least one good song",
         "effect": {
-            "taye": 10,
+            "taye": 1,
             "aton": 0,
             "expr": 0,
-            "conf": 10
+            "conf": 0
         }
     },
     {
-        "question": "Tariffs on international trade are important to encourage local production.",
+        "question": "Taylor Swift has at least one good album.",
         "effect": {
             "taye": 5,
             "aton": 0,
-            "expr": -10,
+            "expr": 0,
             "conf": 0
         }
     },
     {
-        "question": "From each according to his ability, to each according to his needs.",
+        "question": "Taylor Swift has 5+ good albums.",
         "effect": {
             "taye": 10,
-            "aton": 0,
-            "expr": 0,
-            "conf": 0
-        }
-    },
-    {
-        "question": "It would be best if social programs were abolished in favor of private charity.",
-        "effect": {
-            "taye": -10,
-            "aton": 0,
-            "expr": 0,
-            "conf": 0
-        }
-    },
-    {
-        "question": "Taxes should be increased on the rich to provide for the poor.",
-        "effect": {
-            "taye": 10,
-            "aton": 0,
-            "expr": 0,
-            "conf": 0
-        }
-    },
-    {
-        "question": "Inheritance is a legitimate form of wealth.",
-        "effect": {
-            "taye": -10,
             "aton": 0,
             "expr": 0,
             "conf": -5
         }
     },
     {
-        "question": "Basic utilities like roads and electricity should be publicly owned.",
+        "question": "I am interested in Taylor Swifts dating life.",
         "effect": {
             "taye": 10,
             "aton": 0,
@@ -99,7 +99,7 @@ questions = [
         }
     },
     {
-        "question": "Government intervention is a threat to the tayeomy.",
+        "question": "I've listened to unreleased music by Kanye West",
         "effect": {
             "taye": -10,
             "aton": 0,
@@ -108,7 +108,7 @@ questions = [
         }
     },
     {
-        "question": "Those with a greater ability to pay should receive better healthcare.",
+        "question": "I call Kanye West "Ye".",
         "effect": {
             "taye": -10,
             "aton": 0,
@@ -117,7 +117,7 @@ questions = [
         }
     },
     {
-        "question": "Quality education is a right of all people.",
+        "question": "I know what "13" means in the Taylor Swift community",
         "effect": {
             "taye": 10,
             "aton": 0,
@@ -126,97 +126,34 @@ questions = [
         }
     },
     {
-        "question": "The means of production should belong to the workers who use them.",
+        "question": "I know what "aldi" means in the Kanye West community",
         "effect": {
-            "taye": 10,
+            "taye": -10,
             "aton": 0,
             "expr": 0,
             "conf": 0
         }
     },
     {
-        "question": "The United Nations should be abolished.",
-        "effect": {
-            "taye": 0,
-            "aton": -10,
-            "expr": -5,
-            "conf": 0
-        }
-    },
-    {
-        "question": "Military action by our nation is often necessary to protect it.",
-        "effect": {
-            "taye": 0,
-            "aton": -10,
-            "expr": -10,
-            "conf": 0
-        }
-    },
-    {
-        "question": "I support regional unions, such as the European Union.",
+        "question": "Kanye WAS a good person pre 2022.",
         "effect": {
             "taye": -5,
-            "aton": 10,
-            "expr": 10,
-            "conf": 5
-        }
-    },
-    {
-        "question": "It is important to maintain our national sovereignty.",
-        "effect": {
-            "taye": 0,
-            "aton": -10,
-            "expr": -5,
-            "conf": 0
-        }
-    },
-    {
-        "question": "A united world government would be beneficial to mankind.",
-        "effect": {
-            "taye": 0,
-            "aton": 10,
+            "aton": 0,
             "expr": 0,
             "conf": 0
         }
     },
     {
-        "question": "It is more important to retain peaceful relations than to further our strength.",
+        "question": "Taylor Swift is a bad person.",
         "effect": {
-            "taye": 0,
-            "aton": 10,
+            "taye": -10,
+            "aton": 0,
             "expr": 0,
             "conf": 0
         }
     },
     {
-        "question": "Wars do not need to be justified to other countries.",
-        "effect": {
-            "taye": 0,
-            "aton": -10,
-            "expr": -10,
-            "conf": 0
-        }
-    },
-    {
-        "question": "Military spending is a waste of money.",
-        "effect": {
-            "taye": 0,
-            "aton": 10,
-            "expr": 10,
-            "conf": 0
-        }
-    },
-    {
-        "question": "International aid is a waste of money.",
-        "effect": {
-            "taye": -5,
-            "aton": -10,
-            "expr": 0,
-            "conf": 0
-        }
-    },
-    {
-        "question": "My nation is great.",
+        "question": "The Average Grandma knows who my favorite artist is.",
         "effect": {
             "taye": 0,
             "aton": -10,
@@ -225,70 +162,133 @@ questions = [
         }
     },
     {
-        "question": "Research should be conducted on an international scale.",
+        "question": "The average Mother knows who my favorite artist is.",
+        "effect": {
+            "taye": 0,
+            "aton": -5,
+            "expr": 0,
+            "conf": 0
+        }
+    },
+    {
+        "question": "I like the idea of a label.",
+        "effect": {
+            "taye": 0,
+            "aton": -10,
+            "expr": 0,
+            "conf": 0
+        }
+    },
+    {
+        "question": "My favorite artist is signed to a label",
+        "effect": {
+            "taye": 0,
+            "aton": 1,
+            "expr": 0,
+            "conf": 0
+        }
+    },
+    {
+        "question": "My favorite artist does their music in there own house",
         "effect": {
             "taye": 0,
             "aton": 10,
             "expr": 0,
-            "conf": 10
+            "conf": 0
         }
     },
     {
-        "question": "Governments should be accountable to the international community.",
+        "question": "My favorite artist does tours.",
+        "effect": {
+            "taye": 0,
+            "aton": -5,
+            "expr": 0,
+            "conf": 0
+        }
+    },
+    {
+        "question": "My favorite artist has a bandcamp and it's signifigant to their career.",
         "effect": {
             "taye": 0,
             "aton": 10,
+            "expr": 0,
+            "conf": 0
+        }
+    },
+    {
+        "question": "My favorite artist is dead and has postmortal album(s).",
+        "effect": {
+            "taye": 0,
+            "aton": -5,
+            "expr": 0,
+            "conf": 0
+        }
+    },
+    {
+        "question": "My favorite artist could sell out a stadium.",
+        "effect": {
+            "taye": 0,
+            "aton": 10,
+            "expr": 0,
+            "conf": 0
+        }
+    },
+    {
+        "question": "Music is too generic.",
+        "effect": {
+            "taye": 0,
+            "aton": -5,
             "expr": 5,
             "conf": 0
         }
     },
     {
-        "question": "Even when protesting an authoritarian government, violence is not acceptable.",
+        "question": "Pop is one of my favorite genres",
+        "effect": {
+            "taye": 0,
+            "aton": -10,
+            "expr": 0,
+            "conf": 0
+        }
+    },
+    {
+        "question": "I don't like noisy music.",
+        "effect": {
+            "taye": 0,
+            "aton": -5,
+            "expr": -10,
+            "conf": 0
+        }
+    },
+    {
+        "question": "I listen to clean music unironically",
+        "effect": {
+            "taye": 0,
+            "aton": -10,
+            "expr": -5,
+            "conf": 0
+        }
+    },
+    {
+        "question": "I've bought merch and/or physicals of my favorite artist.",
+        "effect": {
+            "taye": 0,
+            "aton": -5,
+            "expr": 0,
+            "conf": -5
+        }
+    },
+    {
+        "question": "My favorite artist became popular because of tiktok.",
         "effect": {
             "taye": 0,
             "aton": 5,
-            "expr": -5,
+            "expr": 0,
             "conf": 0
         }
     },
     {
-        "question": "My religious values should be spread as much as possible.",
-        "effect": {
-            "taye": 0,
-            "aton": -5,
-            "expr": -10,
-            "conf": -10
-        }
-    },
-    {
-        "question": "Our nation's values should be spread as much as possible.",
-        "effect": {
-            "taye": 0,
-            "aton": -10,
-            "expr": -5,
-            "conf": 0
-        }
-    },
-    {
-        "question": "It is very important to maintain law and order.",
-        "effect": {
-            "taye": 0,
-            "aton": -5,
-            "expr": -10,
-            "conf": -5
-        }
-    },
-    {
-        "question": "The general populace makes poor decisions.",
-        "effect": {
-            "taye": 0,
-            "aton": 0,
-            "expr": -10,
-            "conf": 0
-        }
-    },
-    {
-        "question": "Physician-assisted suicide should be legal.",
+        "question": "Death Grips is top 3 bands of all time.",
         "effect": {
             "taye": 0,
             "aton": 0,
@@ -297,25 +297,16 @@ questions = [
         }
     },
     {
-        "question": "The sacrifice of some civil liberties is necessary to protect us from acts of terrorism.",
+        "question": "My favorite artist doesn't always follow music theory.",
         "effect": {
             "taye": 0,
-            "aton": 0,
-            "expr": -10,
+            "aton": -5,
+            "expr": 10,
             "conf": 0
         }
     },
     {
-        "question": "Government surveillance is necessary in the modern world.",
-        "effect": {
-            "taye": 0,
-            "aton": 0,
-            "expr": -10,
-            "conf": 0
-        }
-    },
-    {
-        "question": "The very existence of the state is a threat to our liberty.",
+        "question": "my favorite artists music is very eletronic in production.",
         "effect": {
             "taye": 0,
             "aton": 0,
@@ -324,16 +315,61 @@ questions = [
         }
     },
     {
-        "question": "Regardless of political opinions, it is important to side with your country.",
+        "question": "My favorite genre isn't usually on the Billboard Top 100.",
         "effect": {
             "taye": 0,
-            "aton": -10,
-            "expr": -10,
+            "aton": 0,
+            "expr": 10,
+            "conf": 0
+        }
+    },
+    {
+        "question": "My favorite artist is an instrumental artist.",
+        "effect": {
+            "taye": 0,
+            "aton": 0,
+            "expr": 10,
             "conf": -5
         }
     },
     {
-        "question": "All authority should be questioned.",
+        "question": "I question why people listen to "expirimental" music.",
+        "effect": {
+            "taye": 0,
+            "aton": 0,
+            "expr": -10,
+            "conf": 5
+        }
+    },
+    {
+        "question": "I question why people listen to pop music.",
+        "effect": {
+            "taye": 0,
+            "aton": 0,
+            "expr": 10,
+            "conf": 0
+        }
+    },
+    {
+        "question": "My favorite artist swears.",
+        "effect": {
+            "taye": -5,
+            "aton": 5,
+            "expr": 5,
+            "conf": 0
+        }
+    },
+    {
+        "question": "People HATE my favorite artists music.",
+        "effect": {
+            "taye": 0,
+            "aton": 0,
+            "expr": -10,
+            "conf": 0
+        }
+    },
+    {
+        "question": "I have a romantic/sexual partner.",
         "effect": {
             "taye": 0,
             "aton": 0,
@@ -342,52 +378,79 @@ questions = [
         }
     },
     {
-        "question": "A hierarchical state is best.",
+        "question": "My favorite artist does concept albums",
         "effect": {
             "taye": 0,
             "aton": 0,
-            "expr": -10,
+            "expr": 5,
             "conf": 0
         }
     },
     {
-        "question": "It is important that the government follows the majority opinion, even if it is wrong.",
+        "question": "My favorite artist screams in their music.",
         "effect": {
             "taye": 0,
             "aton": 0,
-            "expr": 10,
-            "conf": 0
+            "expr": 0,
+            "conf": 10
         }
     },
     {
-        "question": "The stronger the leadership, the better.",
+        "question": "I think the Drake/Kendrick beef was entertaining .",
+        "effect": {
+            "taye": 0,
+            "aton": 0,
+            "expr": 0,
+            "conf": -5
+        }
+    },
+    {
+        "question": "I picked a side on the Drake/Kendrick beef.",
+        "effect": {
+            "taye": 0,
+            "aton": 0,
+            "expr": 0,
+            "conf": -10
+        }
+    },
+    {
+        "question": "My favorite artis has collab album(s).",
+        "effect": {
+            "taye": 0,
+            "aton": 0,
+            "expr": 0,
+            "conf": 10
+        }
+    },
+    {
+        "question": "I like the idea of collab albums.",
+        "effect": {
+            "taye": 0,
+            "aton": 0,
+            "expr": 0,
+            "conf": 10
+        }
+    },
+    {
+        "question": "I find the Idea that artists are just voices for other peoples writing as bad.",
+        "effect": {
+            "taye": 0,
+            "aton": 0,
+            "expr": 0,
+            "conf": -10
+        }
+    },
+    {
+        "question": "My favorite artist has ghost writers.",
         "effect": {
             "taye": 0,
             "aton": -10,
-            "expr": -10,
-            "conf": 0
-        }
-    },
-    {
-        "question": "Democracy is more than a decision-making process.",
-        "effect": {
-            "taye": 0,
-            "aton": 0,
-            "expr": 10,
-            "conf": 0
-        }
-    },
-    {
-        "question": "Environmental regulations are essential.",
-        "effect": {
-            "taye": 5,
-            "aton": 0,
             "expr": 0,
             "conf": 10
         }
     },
     {
-        "question": "A better world will come from automation, science, and technology.",
+        "question": "Music is inherently social.",
         "effect": {
             "taye": 0,
             "aton": 0,
@@ -396,16 +459,16 @@ questions = [
         }
     },
     {
-        "question": "Children should be educated in religious or traditional values.",
+        "question": "I find ghost writing immoral.",
         "effect": {
             "taye": 0,
             "aton": 0,
-            "expr": -5,
-            "conf": -10
+            "expr": 0,
+            "conf": -5
         }
     },
     {
-        "question": "Traditions are of no value on their own.",
+        "question": "My favorite artist has others do production for them.",
         "effect": {
             "taye": 0,
             "aton": 0,
@@ -414,25 +477,7 @@ questions = [
         }
     },
     {
-        "question": "Religion should play a role in government.",
-        "effect": {
-            "taye": 0,
-            "aton": 0,
-            "expr": -10,
-            "conf": -10
-        }
-    },
-    {
-        "question": "Churches should be taxed the same way other institutions are taxed.",
-        "effect": {
-            "taye": 5,
-            "aton": 0,
-            "expr": 0,
-            "conf": 10
-        }
-    },
-    {
-        "question": "Climate change is currently one of the greatest threats to our way of life.",
+        "question": "My favorite SOLO artist is/was part of a band/group.",
         "effect": {
             "taye": 0,
             "aton": 0,
@@ -441,151 +486,16 @@ questions = [
         }
     },
     {
-        "question": "It is important that we work as a united world to combat climate change.",
-        "effect": {
-            "taye": 0,
-            "aton": 10,
-            "expr": 0,
-            "conf": 10
-        }
-    },
-    {
-        "question": "Society was better many years ago than it is now.",
+        "question": "My favorite artist seems like a nice person.",
         "effect": {
             "taye": 0,
             "aton": 0,
             "expr": 0,
-            "conf": -10
-        }
-    },
-    {
-        "question": "It is important that we maintain the traditions of our past.",
-        "effect": {
-            "taye": 0,
-            "aton": 0,
-            "expr": 0,
-            "conf": -10
-        }
-    },
-    {
-        "question": "It is important that we think in the long term, beyond our lifespans.",
-        "effect": {
-            "taye": 0,
-            "aton": 0,
-            "expr": 0,
-            "conf": 10
-        }
-    },
-    {
-        "question": "Reason is more important than maintaining our culture.",
-        "effect": {
-            "taye": 0,
-            "aton": 0,
-            "expr": 0,
-            "conf": 10
-        }
-    },
-    {
-        "question": "Drug use should be legalized or decriminalized.",
-        "effect": {
-            "taye": 0,
-            "aton": 0,
-            "expr": 10,
             "conf": 2
         }
     },
     {
-        "question": "Same-sex marriage should be legal.",
-        "effect": {
-            "taye": 0,
-            "aton": 0,
-            "expr": 10,
-            "conf": 10
-        }
-    },
-    {
-        "question": "No cultures are superior to others.",
-        "effect": {
-            "taye": 0,
-            "aton": 10,
-            "expr": 5,
-            "conf": 10
-        }
-    },
-    {
-        "question": "Sex outside marriage is immoral.",
-        "effect": {
-            "taye": 0,
-            "aton": 0,
-            "expr": -5,
-            "conf": -10
-        }
-    },
-    {
-        "question": "If we accept migrants at all, it is important that they assimilate into our culture.",
-        "effect": {
-            "taye": 0,
-            "aton": 0,
-            "expr": -5,
-            "conf": -10
-        }
-    },
-    {
-        "question": "Abortion should be prohibited in most or all cases.",
-        "effect": {
-            "taye": 0,
-            "aton": 0,
-            "expr": -10,
-            "conf": -10
-        }
-    },
-    {
-        "question": "Gun ownership should be prohibited for those without a valid reason.",
-        "effect": {
-            "taye": 0,
-            "aton": 0,
-            "expr": -10,
-            "conf": 0
-        }
-    },
-    {
-        "question": "I support single-payer, universal healthcare.",
-        "effect": {
-            "taye": 10,
-            "aton": 0,
-            "expr": 0,
-            "conf": 0
-        }
-    },
-    {
-        "question": "Prostitution should be illegal.",
-        "effect": {
-            "taye": 0,
-            "aton": 0,
-            "expr": -10,
-            "conf": -10
-        }
-    },
-    {
-        "question": "Maintaining family values is essential.",
-        "effect": {
-            "taye": 0,
-            "aton": 0,
-            "expr": 0,
-            "conf": -10
-        }
-    },
-    {
-        "question": "To chase progress at all costs is dangerous.",
-        "effect": {
-            "taye": 0,
-            "aton": 0,
-            "expr": 0,
-            "conf": -10
-        }
-    },
-    {
-        "question": "Genetic modification is a force for good, even on humans.",
+        "question": "My favorite artist interacts with fans regularly.",
         "effect": {
             "taye": 0,
             "aton": 0,
@@ -594,40 +504,34 @@ questions = [
         }
     },
     {
-        "question": "We should open our borders to immigration.",
-        "effect": {
-            "taye": 0,
-            "aton": 10,
-            "expr": 10,
-            "conf": 0
-        }
-    },
-    {
-        "question": "Governments should be as concerned about foreigners as they are about their own citizens.",
+        "question": "My favorite artist has opened up about there mental struggles.",
         "effect": {
             "taye": 0,
             "aton": 10,
             "expr": 0,
-            "conf": 0
+            "conf": 5
         }
     },
     {
-        "question": "All people - regardless of factors like culture or sexuality - should be treated equally.",
+        "question": "My favorite artist's community is toxic.",
         "effect": {
-            "taye": 10,
-            "aton": 10,
-            "expr": 10,
-            "conf": 10
-        }
-    },
-    {
-        "question": "It is important that we further my group's goals above all others.",
-        "effect": {
-            "taye": -10,
-            "aton": -10,
-            "expr": -10,
+            "taye": 0,
+            "aton": 0,
+            "expr": 0,
             "conf": -10
         }
+    },
+    {
+        "question": "I've met my favorite artist.",
+        "effect": {
+            "taye": 0,
+            "aton": 0,
+            "expr": 0,
+            "conf": 10
+        }
+
+   
     }
 ];
+
 
