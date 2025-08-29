@@ -19,7 +19,7 @@
 
 <h1>Results</h1>
 
-<h2>tayeomic Axis: <span class="weight-300" id="tayeomic-label"></span></h2>
+<h2>economic Axis: <span class="weight-300" id="economic-label"></span></h2>
 <div class="axis">
     <img id="img-equality" src="value_images/equality.svg" height="128pt"/>
     <div class="bar equality" id="bar-equality"><div class="text-wrapper" id="equality"></div></div>
@@ -126,7 +126,7 @@ stats"></a></div></noscript>
     setBarValue("progress", progress)
     setBarValue("tradition", tradition)
 
-    document.getElementById("tayeomic-label").innerHTML = setLabel(equality, tayeArray)
+    document.getElementById("economic-label").innerHTML = setLabel(equality, tayeArray)
     document.getElementById("atonomatic-label").innerHTML = setLabel(peace, atonArray)
     document.getElementById("state-label").innerHTML = setLabel(liberty, exprArray)
     document.getElementById("society-label").innerHTML = setLabel(progress, confArray)
@@ -222,7 +222,7 @@ stats"></a></div></noscript>
         ctx.fillText("8values.github.io", 780, 60)
 		ctx.fillText(version, 780, 90)
         ctx.textAlign="center"
-        ctx.fillText("tayeomic Axis: " + document.getElementById("tayeomic-label").innerHTML, 400, 175)
+        ctx.fillText("economic Axis: " + document.getElementById("economic-label").innerHTML, 400, 175)
         ctx.fillText("atonomatic Axis: " + document.getElementById("atonomatic-label").innerHTML, 400, 295)
         ctx.fillText("Civil Axis: " + document.getElementById("state-label").innerHTML, 400, 415)
         ctx.fillText("Societal Axis: " + document.getElementById("society-label").innerHTML, 400, 535)
