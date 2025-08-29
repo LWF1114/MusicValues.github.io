@@ -108,7 +108,7 @@ questions = [
         }
     },
     {
-        "question": "I call Kanye West "Ye".",
+        "question": "I call Kanye West \"Ye\".",
         "effect": {
             "taye": -10,
             "aton": 0,
@@ -531,6 +531,7 @@ questions = [
         }
     }
 ];
+
 
 
 
