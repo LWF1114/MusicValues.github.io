@@ -117,7 +117,7 @@ questions = [
         }
     },
     {
-        "question": "I know what "13" means in the Taylor Swift community",
+        "question": "I know what \"13\" means in the Taylor Swift community",
         "effect": {
             "taye": 10,
             "aton": 0,
@@ -126,7 +126,7 @@ questions = [
         }
     },
     {
-        "question": "I know what "aldi" means in the Kanye West community",
+        "question": "I know what \"aldi\" means in the Kanye West community",
         "effect": {
             "taye": -10,
             "aton": 0,
@@ -333,7 +333,7 @@ questions = [
         }
     },
     {
-        "question": "I question why people listen to "expirimental" music.",
+        "question": "I question why people listen to \"expirimental\" music.",
         "effect": {
             "taye": 0,
             "aton": 0,
@@ -531,6 +531,7 @@ questions = [
         }
     }
 ];
+
 
 
 
